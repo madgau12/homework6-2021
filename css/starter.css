@@ -163,15 +163,14 @@ body{
 
 /* Animation Animation Animation */
 
-  @keyframes #logo{
-    0%   {width: 50px; opacity: 0;}
-    100% {width: 425px; opacity: 1;}
-
+  @keyframes logoz{
+    from  {width: 50px; opacity: 0;}
+    to  {width: 425px; opacity: 1;}
   }
 
-  #logo:{
-    transition-property: width;
-    transition-duration: 5s;
+  #logo{
+    animation-name: logoz;
+    animation-duration: 5s;
   }
 
 /* Animation Animation Animation */
