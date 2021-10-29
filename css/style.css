@@ -1,14 +1,15 @@
  @media screen and (prefers-reduced-motion: reduce){
-    *, ::before, ::after {
-    animation-delay: -1s !important;
-    animation-duration: 1s !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    }
-
+ 
+  @keyframes logoz{
+    from  {width: 425px;}
+    to  {width: 425px;}
   }
+
+  #logo{
+    animation-name: logoz;
+    animation-duration: 0s;
+  }
+ }
 
   @media print{
     body{
